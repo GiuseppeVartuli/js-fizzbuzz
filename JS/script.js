@@ -21,13 +21,13 @@ Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda ch
 Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna. */
 
 for (let i = 1; i <= 100; i++) {
-  console.log(i);
-
   if (i % 3 === 0 && i % 5 === 0) {
     console.log("FrizzBuzz");
   } else if (i % 5 === 0) {
     console.log("Buzz");
   } else if (i % 3 === 0) {
     console.log("Frizz");
+  } else {
+    console.log(i);
   }
 }
