@@ -22,4 +22,12 @@ Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot f
 
 for (let i = 1; i <= 100; i++) {
   console.log(i);
+
+  if (i % 3 === 0 && i % 5 === 0) {
+    console.log("FrizzBuzz");
+  } else if (i % 5 === 0) {
+    console.log("Buzz");
+  } else if (i % 3 === 0) {
+    console.log("Frizz");
+  }
 }
