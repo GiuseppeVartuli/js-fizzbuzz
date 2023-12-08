@@ -2,4 +2,35 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background: lightsalmon;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 70%;
+  flex-wrap: wrap;
+  margin-left: 250px;
+}
+.box {
+  width: 100px;
+  aspect-ratio: 1;
+  border: 2px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_red {
+  background-color: red;
+}
+.box_green {
+  background: green;
+}
+.box_yellow {
+  background: yellow;
+}
+.box_blue {
+  background: blue;
 }
